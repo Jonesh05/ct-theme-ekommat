@@ -1,0 +1,460 @@
+.container {
+  /*  max-width: 1000px; */
+   /* width: 100%; */
+   margin-left: 0;
+   padding-left: 0;
+   padding-right: 0;
+}
+
+.Logo {
+  position: relative;
+  margin-top: .5rem;
+  margin-bottom: 4px;
+  margin-left: 418px;
+  height: 20px;
+}
+
+.repeat-header {
+  margin-bottom: 0; 
+  position: absolute;
+  left: 0;
+  margin-left: 245px;
+  color: black;
+}
+
+.name-brank {
+  display: flex;
+  margin-right: 42%;
+  margin-left: 128px;
+}
+
+.fas, .far {
+  font-size: 18px;
+}
+
+.pods-icon {
+  color: green;
+}
+
+.container ul {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  height: inherit;
+  font-size: 12px;
+
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 600;
+    font-size: 12px;
+    display: block;
+}
+
+.icon-menu ul {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 21px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -40px;
+
+}
+
+.menu a {
+    font-size: 8px;
+    padding: 4px;
+    margin-bottom: 72px;
+}
+
+.menu h3 {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* menu a #dropdownMenuLink {
+  font-size: 8px;
+  padding-bottom: 4px;
+  margin-bottom: 20px;
+}
+ */
+.text-banner {
+  display: flex;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 350px;
+}
+
+/* .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  line-height: 1.2
+} */
+
+h6 {
+  padding: 5px;
+  position: absolute;
+  color: white;
+  right: 0;
+}
+
+.fr-title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: white;
+  margin-top: 20px;
+  margin-left: 100px;
+
+}
+/* button {
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: inherit;
+} */
+
+.btn-cart  {
+  height: 32px;
+  margin-top: 8em;
+  margin-left: -192px;
+  display: flex;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.banner-one ::after, ::before {
+  box-sizing: border-box;
+}
+
+.side-banner {
+  display: flex;
+  height: 350px;
+  top: 0;
+  position: absolute;
+  margin-top: 15em;
+}
+
+.banner-one  {
+  border: 2px solid blue;
+  background-color: #0A8;
+  margin: 20px;
+  height: 457px;
+  width: 97%;
+
+}
+.side-right {
+  height: 454px;
+  position: absolute; 
+  right: 0;
+  margin-right: 20px;
+}
+
+.side-top {
+  right: 0;
+  position: absolute;
+  margin: -20em 22em 25em 855px;
+  height: 60px;
+}
+.side-model {
+  position: absolute;
+  top: 0;
+  margin-top: 17em;
+  height: 420px;
+  margin-left: 7em;
+}
+
+.side-shirt {
+  height: 384px;
+  position: absolute;
+  margin-top: 314px;
+  margin-left: 866px;
+  top: 0;
+}
+
+.show-gallery {
+  height: 400px;
+  margin: 20px;
+ /*  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column; */
+  display: flex
+}
+
+.slider-g-main {
+  display: flex;
+}
+
+.gallery-top {
+  width: 400px;
+  height:  190px;
+  margin-right: 20px;
+}
+
+.gallery-medium {
+  width: 400px;
+  height:  190px;
+}
+
+.slider-g-buttom {
+  margin-top: 13em;
+  position: absolute;
+}
+
+.gallery-buttom {
+  height:  190px;
+  width: 820px;
+}
+
+.gallery-right {
+  width: 412px;
+  height:  400px;
+  margin-left: 22px;
+}
+
+.wrapper-productos img {
+  height: 300px;
+  width: 200px;
+  border: 5px solid darkblue;
+}
+.wrapper-productos {
+  border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper-1, .wrapper-2, .wrapper-3, .wrapper-4 {
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 45px;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.wrapper1 {
+  display: grid;
+}
+
+#item1 {
+  position: absolute;
+  font-size: 12px;
+  display: block;
+  margin-top: 270px;
+}
+
+div #item1 {
+  display: flex;
+  margin-top: 0;
+  margin-top: -274px;
+}
+
+div #item2 {
+  display: flex;
+  margin-top: 74px;
+}
+#item1 img {
+  position: absolute;
+  margin-right: 0;
+  z-index: -2;
+  display: flex;
+}
+
+div #item3 {
+  margin-top: 44px;
+}
+.badge {
+  height: 26px;
+  margin-top: 11em;
+  left: 136px;
+  background-color: blue;
+  position: absolute;
+  margin-left: 0;
+  width: 3em;
+}
+
+#badge-item1 {
+  height: 26px;
+  margin-top: 11em;
+  left: 136px;
+  background-color: blue;
+  position: absolute;
+  margin-left: 0;
+  width: 3em;
+}
+
+#badge-item2 {
+  height: 26px;
+  width: 6em;
+  left: -61px;
+  top: 140px;
+}
+#badge-item3{
+  margin-top: 0;
+  left: -60px;
+  height: 26px;
+  width: 6em;
+  top: -30px;
+}
+#badge-item4 {
+  margin-top: 0;
+  left: -59px;
+  bottom: 13px;
+  height: 26px;
+  width: 6em;
+}
+
+#badge-wrapper2 {
+  left: -76em;
+  bottom: 1em;
+  height: 250%;
+  width: 6em;
+}
+
+#badge-wrapper3 {
+  left: -54em;
+  bottom: 12px;
+  height: 250%;
+  width: 6em;
+}
+
+#badge-wrapper4 {
+  left: -33em;
+  bottom: 12px;
+  height: 250%;
+  width: 6em;
+}
+
+#item4  img {
+  margin-top: 45px;
+}
+strong {
+  position: absolute;
+  bottom: 27px;
+  margin-left: 11px;
+}
+#item1 br {
+  margin-top: 300px;
+  text-align: inherit;
+  margin-right: 24px
+} 
+
+.Title {
+  text-align: center;
+  border: 1px solid gray;
+  width: 1295px;
+  display: flex;
+  justify-content: center;
+  scroll-margin-bottom: 20px;
+  padding: 22px;
+  margin-bottom: 20px;
+}
+
+.Title h2 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.todo  {
+  background-color: grey;
+  border-radius: 3px;
+  color: #dc143c;
+}
+
+.medium {
+  display: block;
+  text-align: center;
+} 
+
+section h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+section ul {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid azure;
+}
+.floor-banner {
+  border: 2px solid purple;
+}
+
+.banner-two {
+  margin: 20px;
+  height: 370px;
+  width: 97%;
+  border: 2px solid orange;
+}
+
+.msg-banner h6 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 12px;
+  position: initial;
+}
+
+.msg-banner h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+
+.side-c {
+  height: 367px;
+  width: 100%;
+}
+
+.side-d {
+  display: flex;
+  position: absolute;
+  top: 0;
+  margin-top: 190em;
+  height: 350px;
+}
+
+.ultimated-expo {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+.side-e, .side-f, .side-g {
+  height: 17rem;
+  margin: 0 1em 40px;
+}
+
+.banner-three  {
+  border: 2px solid blue;
+  background-color: #0f0135;
+  margin: 20px;
+  height: 250px;
+  width: 97%;
+
+}
+
+canvas {
+  margin-left: 450px;
+  margin-top: 80px;
+  display: flex;
+  position: absolute;
+}
+p span {
+  position: absolute;
+}
+
+.side-h {
+  height: 100%;
+  width: 100%;
+}
